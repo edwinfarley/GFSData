@@ -18,4 +18,5 @@ Full Contents:
 | ASTHMA | Whether the respondent has asthma. |
 | block | Blocking index. |
 
-The permutations folder contains pre-computed permutations using Normal model (P.csv), Logistic model (P_log.csv and P_log_A.csv, which has uniform blocks removed), Joint model (P_joint.csv).
+The permutations folder contains pre-computed permutations using Normal model (P.csv), Logistic model (P_log.csv and P_log_A.csv, which has uniform blocks removed), Joint model (P_joint.csv). 
+**NOTE**: The permutations use **R** indexing, starting from 1. To use the permutations in Python, subtract 1 from all indices.
